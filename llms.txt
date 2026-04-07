@@ -1,0 +1,22 @@
+# Atlas FIRE Decision Engine — Voice Briefing Data
+
+> Twice-daily portfolio analytics and Monte Carlo simulation results.
+> Engine: Atlas v3 | Strategy: BBD (Buy, Borrow, Die) | FIRE target: December 2028
+
+## Endpoints
+- [Latest Briefing (JSON)](/atlas-fire-brief/latest.json): Current cycle with voice_summary field
+- [Latest Briefing (Markdown)](/atlas-fire-brief/latest.md): Same data in readable markdown — preferred for voice
+- [Dated Archive](/atlas-fire-brief/daily/): Per-cycle archived briefings
+
+## How to use
+Fetch latest.md first. Read the voice_summary field aloud. Then answer questions from the structured sections.
+Speak numbers naturally (e.g. "$3,176,241" → "three point two million").
+Keep responses short — the user is driving.
+
+## Update cadence
+Published twice daily: ~9:30 AM PT (AM cycle) and ~10:00 PM PT (PM cycle).
+Check meta/updated.txt for exact publish timestamp.
+
+## Security
+This site contains zero credentials, account numbers, names, or emails.
+Published data: portfolio values, sim percentiles, strategy status, research sentiment.
