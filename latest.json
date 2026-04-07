@@ -1,0 +1,101 @@
+{
+  "atlas_version": "v3",
+  "generated_at": "2026-04-07T17:57:13.201955+00:00",
+  "cycle": "AM",
+  "briefing_date": "2026-04-07",
+  "pages_url": "https://terryberry222.github.io/atlas-fire-brief",
+  "headline": "Atlas AM briefing \u2014 2026-04-07",
+  "alert_level": "critical",
+  "voice_summary": "Good morning. Atlas briefing for 2026-04-07. You have 1104 vested SpaceX shares at 526 dollars and 59 cents each. Research sentiment on the IPO is bullish. Sim median at year five is 3.2 million. Foundational sim is in phase F2, 1708/2000 worlds complete. One critical flag needs your attention.",
+  "portfolio": {
+    "estimated_value_fmv": "$581,355",
+    "spacex_shares_vested": 1104,
+    "spacex_shares_total_sim": 2148,
+    "spacex_fmv_per_share": "$526.59",
+    "spacex_ipo_est_per_share": "$677.66",
+    "sbloc_outstanding": "$294,610",
+    "sbloc_ltv_ceiling": "30%",
+    "ltv_current_approx": "50.7%"
+  },
+  "sim_results": {
+    "median_wealth_year5": "$3,176,241",
+    "p10_wealth_year5": "$725,705",
+    "p90_wealth_year5": "$9,674,603",
+    "sim_phase": "F2",
+    "sim_progress": "starting",
+    "worlds_complete": "1708/2000",
+    "sim_status": "running",
+    "convergence_score": "0.25",
+    "parameter_coverage": "98.2%"
+  },
+  "strategy_status": {
+    "current_phase": "Pre-IPO accumulation",
+    "next_milestone": "IPO est. ~July 2026",
+    "fire_target": "December 2028",
+    "bbd_strategy": "Buy SpaceX shares, borrow via SBLOC, never sell",
+    "espp_status": "100% contribution \u2014 qualified plan active",
+    "upcoming_dates": [
+      "2026-04-08: ESPP Decision Tracker deadline",
+      "2026-04-15: NQ offering period ends",
+      "2026-04-16: Qualified ESPP offering starts"
+    ]
+  },
+  "research_signals": [
+    {
+      "signal": "SpaceX is planning a confidential IPO in mid-2026, aiming to raise approximately $75 billion at a valuation of around $1.75\u20132 trillion or higher. The company's employee count stands at about 14,000 as",
+      "ipo_sentiment": "bullish",
+      "ipo_confidence": 0.8,
+      "key_risks": [
+        "High cost of living in Southern California affecting employee retention and expenses.",
+        "Variable SBLOC rates could impact financing costs for investors."
+      ],
+      "key_catalysts": [
+        "SpaceX confidentially filed with SEC, aiming for a listing in mid-2026.",
+        "Potential inclusion of SpaceX in the S&P 500 could drive investor interest."
+      ],
+      "source": "research_digest",
+      "as_of": "2026-04-03 23:37:15"
+    }
+  ],
+  "sensitivity_top5": [
+    {
+      "rank": 1,
+      "variable": "gbm_vol",
+      "impact_range_dollars": "$9,380,125"
+    },
+    {
+      "rank": 2,
+      "variable": "living_expenses",
+      "impact_range_dollars": "$7,076,038"
+    },
+    {
+      "rank": 3,
+      "variable": "sp500_pressure",
+      "impact_range_dollars": "$7,026,737"
+    },
+    {
+      "rank": 4,
+      "variable": "sbloc_rate",
+      "impact_range_dollars": "$6,983,682"
+    },
+    {
+      "rank": 5,
+      "variable": "lockup_pressure",
+      "impact_range_dollars": "$6,950,871"
+    }
+  ],
+  "alerts": [
+    {
+      "severity": "CRITICAL",
+      "message": "BBD compliance check found 81391 violation(s). LTV violations: 46, Insolvency/liquidation risks: 81345, SBLOC anomalies: 75862.",
+      "timestamp": "2026-04-03 11:53:22"
+    }
+  ],
+  "what_if_ready": [
+    "track_car_impact",
+    "early_fire_24",
+    "bear_market",
+    "aggressive_ltv"
+  ],
+  "sonnet_instructions": "Fetch latest.md for voice delivery. Read voice_summary aloud first. Spell numbers as words. Keep responses short \u2014 Alex is driving."
+}
